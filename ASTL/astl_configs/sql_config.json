@@ -1,0 +1,8 @@
+{
+  "dataset_path": "C:/QVoid-MutantAI/datasets/piyush/SQL/Modified_SQL_Dataset.csv",
+  "model_dir": "ASTL/models/piyush/SQL",
+  "logs_dir": "ASTL/astl_logs",
+  "model_name": "piyushm2_astl_hybrid.pkl",
+  "vectorizer_name": "piyushm2_vectorizer.pkl",
+  "feature_name": "piyushm2_feature.pkl"
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "loop": 1,
+        "validation_accuracy": 0.9999929795740707,
+        "training_accuracy": 1.0,
+        "samples_added_this_loop": 632994,
+        "pseudo_label_class_distribution": {
+            "BENIGN": 113,
+            "Syn": 632881
+        },
+        "total_labeled_samples": 1297719,
+        "remaining_unlabeled": 79
+    }
+]

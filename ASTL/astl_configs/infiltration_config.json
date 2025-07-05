@@ -1,0 +1,4 @@
+{
+  "DATA_PATH": "datasets/jeya/Thursday-WorkingHours-Afternoon-Infilteration/Thursday_CLEANED.csv",
+  "OUTPUT_DIR": "ASTL/models/jeya"
+}

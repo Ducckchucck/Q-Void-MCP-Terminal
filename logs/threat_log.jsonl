@@ -1,0 +1,97 @@
+{"input": "", "verdict": "unknown", "confidence": 0, "timestamp": "2025-07-03T18:54:38.576383"}
+{"input": "DROP TABLE users WHERE 1=1 -- classic injection!", "verdict": "Benign", "confidence": 87, "timestamp": "2025-07-03T18:55:31.516207"}
+{"input": "A suspicious memory syscall was detected during payload injection.", "verdict": "BENIGN", "confidence": 100, "timestamp": "2025-07-03T18:55:51.982268"}
+{"input": "SYN flood attack initiated on port 80.", "verdict": "Normal", "confidence": 86.0, "timestamp": "2025-07-03T18:56:32.888900"}
+{"input": "", "verdict": "unknown", "confidence": 0, "timestamp": "2025-07-03T18:56:32.904522"}
+{"input": "", "verdict": "unknown", "confidence": 0, "timestamp": "2025-07-03T18:59:29.404273"}
+{"input": "admin' OR 1=1 --", "verdict": "BENIGN", "confidence": 87.0, "timestamp": "2025-07-03T19:04:30.654799"}
+{"input": "Payload linked to known ransomware signature.", "verdict": "BENIGN", "confidence": 100.0, "timestamp": "2025-07-03T19:04:51.023682"}
+{"input": "SYN flood attack detected on port 80.", "verdict": "SYN_ATTACK", "confidence": 96.0, "timestamp": "2025-07-03T19:05:11.456262"}
+{"input": "User logged in successfully from trusted device.", "verdict": "UNKNOWN", "confidence": 0.0, "timestamp": "2025-07-03T19:05:11.456262"}
+{"input": "Testing just a string", "verdict": "UNKNOWN", "confidence": 0.0, "timestamp": "2025-07-03T19:05:11.464352"}
+{"input": "Click here to verify your account now.", "verdict": "-1", "confidence": 77, "timestamp": "2025-07-03T19:09:57.741236"}
+{"input": "Click here to verify your account now.admin' OR 1=1 --", "verdict": "BENIGN", "confidence": 87, "timestamp": "2025-07-03T19:10:47.802900"}
+{"input": "Payload linked to known ransomware signature.", "verdict": "BENIGN", "confidence": 100, "timestamp": "2025-07-03T19:11:08.187993"}
+{"input": "SYN flood attack detected on port 80.", "verdict": "SYN_ATTACK", "confidence": 72.0, "timestamp": "2025-07-03T19:11:28.542026"}
+{"input": "User logged in successfully from trusted device.", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T19:11:28.557645"}
+{"input": "Testing just a string", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T19:11:52.834317"}
+{"input": "Click here to verify your account now.", "verdict": "-1", "confidence": 77, "timestamp": "2025-07-03T19:16:47.786937"}
+{"input": "Your bank account has been suspended, login to restore access.", "verdict": "-1", "confidence": 77, "timestamp": "2025-07-03T19:17:08.281908"}
+{"input": "Urgent: Confirm your identity by entering your OTP.", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T19:17:08.281908"}
+{"input": "You have won a reward. Submit credentials to claim.", "verdict": "-1", "confidence": 77, "timestamp": "2025-07-03T19:17:28.859829"}
+{"input": "Fake Apple login at http://apple.com.fake.login-page.co", "verdict": "-1", "confidence": 77, "timestamp": "2025-07-03T19:17:49.398936"}
+{"input": "admin' OR 1=1 --", "verdict": "BENIGN", "confidence": 87, "timestamp": "2025-07-03T19:22:10.326101"}
+{"input": "' OR '1'='1'; DROP TABLE users; --", "verdict": "BENIGN", "confidence": 87, "timestamp": "2025-07-03T19:22:30.876965"}
+{"input": "' OR 1=1 LIMIT 1 --", "verdict": "BENIGN", "confidence": 87, "timestamp": "2025-07-03T19:22:51.357326"}
+{"input": "\" OR \"\" = \"", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T19:22:51.357326"}
+{"input": "' UNION SELECT NULL, username, password FROM users --", "verdict": "BENIGN", "confidence": 87, "timestamp": "2025-07-03T19:23:11.843917"}
+{"input": "Detected shellcode injection in process memory.", "verdict": "BENIGN", "confidence": 100, "timestamp": "2025-07-03T19:23:32.280207"}
+{"input": "Payload linked to known ransomware signature.", "verdict": "BENIGN", "confidence": 100, "timestamp": "2025-07-03T19:23:52.720460"}
+{"input": "Reverse TCP shell opened on port 4444.", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T19:23:52.720460"}
+{"input": "Suspicious executable dropped in system32 directory.", "verdict": "BENIGN", "confidence": 87, "timestamp": "2025-07-03T19:24:13.168906"}
+{"input": "Script tried to modify /etc/shadow permissions.", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T19:24:13.185739"}
+{"input": "SYN flood attack detected on port 80.", "verdict": "SYN_ATTACK", "confidence": 72.0, "timestamp": "2025-07-03T19:24:33.563511"}
+{"input": "Large number of TCP SYN packets without ACK.", "verdict": "SYN_ATTACK", "confidence": 66.0, "timestamp": "2025-07-03T19:24:54.155912"}
+{"input": "Multiple half-open connections initiated by same IP.", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T19:24:54.158908"}
+{"input": "Suspicious traffic spikes from 192.168.1.200", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T19:24:54.167221"}
+{"input": "ICMP flood pattern observed on network interface.", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T19:24:54.173952"}
+{"input": "User logged in successfully from trusted device.", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T19:24:54.184837"}
+{"input": "Scheduled cron job completed without error.", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T19:24:54.188825"}
+{"input": "Daily backup completed to cloud storage.", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T19:24:54.191818"}
+{"input": "Heartbeat packet sent to monitoring server.", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T19:24:54.197795"}
+{"input": "No anomaly detected in user session.", "verdict": "BENIGN", "confidence": 88.0, "timestamp": "2025-07-03T19:25:14.610717"}
+{"input": "Hello system", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T19:25:14.610717"}
+{"input": "Check this input pls", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T19:25:14.626342"}
+{"input": "Testing just a string", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T19:25:14.626342"}
+{"input": "123456789", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T19:25:14.626342"}
+{"input": "Nothing much to say here", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T19:25:14.641963"}
+{"input": "route(\"SELECT * FROM users WHERE username='admin' OR 1=1 --\")", "verdict": "BENIGN", "confidence": 88, "timestamp": "2025-07-03T21:29:26.394040"}
+{"input": "SELECT * FROM users WHERE username='admin' OR 1=1 --", "verdict": "BENIGN", "confidence": 88, "timestamp": "2025-07-03T21:29:55.809784"}
+{"input": "simulate sql", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T21:30:08.133269"}
+{"input": "simulate", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T21:30:17.418604"}
+{"input": "\"OR 1=1 --\"", "verdict": "BENIGN", "confidence": 83, "timestamp": "2025-07-03T21:32:04.791287"}
+{"input": "' OR 'a'='a'", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T21:32:21.647616"}
+{"input": "", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T21:32:21.657698"}
+{"input": "admin' --", "verdict": "BENIGN", "confidence": 83, "timestamp": "2025-07-03T21:32:42.097868"}
+{"input": "", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T21:32:42.097868"}
+{"input": "1' OR '1'='1", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T21:32:42.112379"}
+{"input": "", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T21:32:42.115034"}
+{"input": "admin' #", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T21:32:42.123785"}
+{"input": "", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T21:32:42.135879"}
+{"input": "UNION SELECT ...", "verdict": "MALICIOUS", "confidence": 100, "timestamp": "2025-07-03T21:33:02.603435"}
+{"input": "", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T21:33:02.606552"}
+{"input": "OR EXISTS (SELECT * FROM ...)", "verdict": "BENIGN", "confidence": 94, "timestamp": "2025-07-03T21:34:24.009888"}
+{"input": "SELECT * FROM users WHERE username='admin' OR 1=1 --", "verdict": "MALICIOUS", "confidence": 79, "timestamp": "2025-07-03T22:15:31.285614"}
+{"input": "' OR 'a'='a'", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T22:16:01.063453"}
+{"input": "admin' --", "verdict": "BENIGN", "confidence": 82, "timestamp": "2025-07-03T22:16:21.470766"}
+{"input": "\" OR 1=1#", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T22:16:21.486374"}
+{"input": "UNION SELECT username, password FROM users--", "verdict": "MALICIOUS", "confidence": 93, "timestamp": "2025-07-03T22:16:42.026955"}
+{"input": "\"C:/Program Files/Python312/python.exe\" c:/QVoid-MutantAI/interceptor.py", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T22:18:35.114012"}
+{"input": "SELECT * FROM users WHERE name=0x61646D696E OR 1=1--", "verdict": "MALICIOUS", "confidence": 63, "timestamp": "2025-07-03T22:52:21.763138"}
+{"input": "-1 UNION/**/SELECT/**/NULL,NULL,username,password/**/FROM/**/users--+", "verdict": "MALICIOUS", "confidence": 90, "timestamp": "2025-07-03T22:52:55.440465"}
+{"input": "' OR (SELECT COUNT(*) FROM information_schema.tables) > 0 --", "verdict": "MALICIOUS", "confidence": 91, "timestamp": "2025-07-03T22:53:27.312195"}
+{"input": "1' AND IF(1=1, SLEEP(5), 0)--+", "verdict": "MALICIOUS", "confidence": 100, "timestamp": "2025-07-03T22:53:51.554703"}
+{"input": "0x61646D696E", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T22:55:00.721065"}
+{"input": "CHAR(97)+CHAR(100)+CHAR(109)+CHAR(105)+CHAR(110)", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-03T22:55:00.721065"}
+{"input": "1' OR '1'='1", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-04T18:32:52.907474"}
+{"input": "admin' --", "verdict": "MALICIOUS", "confidence": 100, "timestamp": "2025-07-04T18:33:13.842659"}
+{"input": "' OR sleep(5) --", "verdict": "MALICIOUS", "confidence": 100, "timestamp": "2025-07-04T18:33:34.531539"}
+{"input": "SELECT * FROM users WHERE username = 'admin' --", "verdict": "MALICIOUS", "confidence": 67, "timestamp": "2025-07-04T18:33:55.316664"}
+{"input": "1; DROP TABLE users", "verdict": "MALICIOUS", "confidence": 79, "timestamp": "2025-07-04T18:34:15.924057"}
+{"input": "' OR 1=1 --", "verdict": "MALICIOUS", "confidence": 100, "timestamp": "2025-07-04T19:22:36.711181"}
+{"input": "admin' OR '1'='1", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-04T19:22:36.714875"}
+{"input": "SELECT * FROM users WHERE password LIKE '%123%'", "verdict": "MALICIOUS", "confidence": 56, "timestamp": "2025-07-04T19:22:57.224057"}
+{"input": "1; DROP TABLE users", "verdict": "MALICIOUS", "confidence": 93, "timestamp": "2025-07-04T19:23:17.739281"}
+{"input": "", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-04T20:01:19.460093"}
+{"input": "' OR (SELECT COUNT(*) FROM users WHERE username LIKE '%admin%') > 0 --", "verdict": "MALICIOUS", "confidence": 82, "timestamp": "2025-07-04T20:03:21.913646"}
+{"input": "' OR IF(1=1, SLEEP(10), 0) --+", "verdict": "MALICIOUS", "confidence": 78, "timestamp": "2025-07-04T20:03:48.551176"}
+{"input": "' UNION/**/SELECT/**/NULL,NULL,version()--+", "verdict": "MALICIOUS", "confidence": 99, "timestamp": "2025-07-04T20:04:13.198697"}
+{"input": "' OR 0x61646D696E=0x61646D696E --", "verdict": "MALICIOUS", "confidence": 100, "timestamp": "2025-07-04T20:04:41.060335"}
+{"input": "'; EXEC xp_cmdshell('whoami'); --", "verdict": "MALICIOUS", "confidence": 100, "timestamp": "2025-07-04T20:05:11.590842"}
+{"input": "' OR 0x61646D696E=0x61646D696E --", "verdict": "MALICIOUS", "confidence": 100, "timestamp": "2025-07-05T07:33:39.085262"}
+{"input": "sinff", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-05T07:33:49.433802"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SYN_ATTACK", "confidence": 68.5, "timestamp": "2025-07-05T07:42:29.455082"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SYN_ATTACK", "confidence": 84.5, "timestamp": "2025-07-05T07:47:57.209165"}
+{"input": "OR 0x61646D696E=0x61646D696E --", "verdict": "MALICIOUS", "confidence": 100, "timestamp": "2025-07-05T07:48:27.002474"}
+{"input": "EXEC xp_cmdshell('whoami'); --", "verdict": "MALICIOUS", "confidence": 100, "timestamp": "2025-07-05T07:48:59.189508"}
+{"input": "OR 0x61646D696E=0x61646D696E --", "verdict": "MALICIOUS", "confidence": 100, "timestamp": "2025-07-05T07:54:07.762380"}

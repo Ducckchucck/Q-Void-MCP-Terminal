@@ -1,0 +1,14 @@
+[
+    {
+        "loop": 1,
+        "validation_accuracy": 1.0,
+        "training_accuracy": 1.0,
+        "samples_added_this_loop": 120,
+        "pseudo_label_class_distribution": {
+            "Benign": 52,
+            "SQL Injection": 68
+        },
+        "total_labeled_samples": 286,
+        "remaining_unlabeled": 40
+    }
+]

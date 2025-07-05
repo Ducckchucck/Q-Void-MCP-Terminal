@@ -1,0 +1,9 @@
+[
+    {
+        "loop": 1,
+        "validation_accuracy": 0.9910426370476532,
+        "training_accuracy": 0.9999474679554529,
+        "samples_added": 6012,
+        "remaining_unlabeled": 6392
+    }
+]

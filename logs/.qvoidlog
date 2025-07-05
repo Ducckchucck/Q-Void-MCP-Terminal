@@ -1,0 +1,247 @@
+[result] 'select * from users where username = 'admin'' → unknown (0%) at 2025-06-27 19:59:14.250058
+[result] 'SYN flood attack detected from 192.168.1.5' → SYN Flood Detected (92%) at 2025-06-27 19:59:24.173473
+[result] 'Found trojan payload inside infected file`' → unknown (0%) at 2025-06-27 19:59:30.452570
+[result] 'This user tried to drop table admin and inject malware payload' → Malware Signature Found (90%) at 2025-06-27 19:59:41.860306
+[result] '' → unknown (0%) at 2025-06-27 20:21:17.531998
+[result] 'select * from users where username = 'admin'' → unknown (0%) at 2025-06-27 20:22:07.367667
+[result] 'exit' → verdict (confidence%) at 2025-06-27 23:43:47.814815
+[result] 'exit' → verdict (confidence%) at 2025-06-27 23:45:02.700972
+[result] 'exit' → verdict (confidence%) at 2025-06-27 23:45:58.774652
+[result] 'exit' → verdict (confidence%) at 2025-06-27 23:49:32.150617
+[result] 'exit' → verdict (confidence%) at 2025-06-27 23:51:00.421372
+[result] 'exit' → verdict (confidence%) at 2025-06-27 23:52:25.821639
+[result] 'exit' → verdict (confidence%) at 2025-06-28 00:17:58.394092
+[result] 'exit' → verdict (confidence%) at 2025-06-28 19:53:03.493239
+[result] 'exit' → verdict (confidence%) at 2025-06-28 19:54:08.641655
+[result] 'exit' → unknown (0%) at 2025-06-28 19:59:35.743123
+[result] 'exit' → verdict (confidence%) at 2025-06-28 20:14:07.723031
+[2025-06-28 22:35:40.018619] 'select * from users where 1=1 --' => Benign (87%)
+[2025-06-28 22:36:18.773209] 'user tried to drop table and inject malware' => Benign (87%)
+[2025-06-28 22:41:39.800681] '' => unknown (0%)
+[2025-06-28 22:41:43.828651] 'massive syn flood on port 80' => Syn (95%)
+[2025-06-28 22:42:56.894448] 'User logged in from IP 192.168.1.2' => unknown (0%)
+[2025-06-28 22:43:07.640572] 'Database accessed with SELECT statement' => Benign (87%)
+[2025-06-28 22:43:18.730983] 'GET /index.html HTTP/1.1' => unknown (0%)
+[2025-06-28 22:43:27.890739] 'Regular TCP connection established on port 80' => unknown (0%)
+[2025-06-28 22:43:40.638518] 'Login attempt failed multiple times from same IP' => unknown (0%)
+[2025-06-28 22:43:50.084296] 'SELECT * FROM users WHERE username='admin' OR 1=1 --' => Benign (87%)
+[2025-06-28 22:44:00.718721] 'Unusual SYN traffic spike on port 443' => Syn (95%)
+[2025-06-28 22:44:10.738253] 'User tried to update table without permission' => Benign (87%)
+[2025-06-28 22:44:36.390000] 'SYN flood attack detected from spoofed IP targeting port 80' => Syn (95%)
+[2025-06-28 22:45:44.404174] 'cls' => unknown (0%)
+[2025-06-28 22:46:31.560763] 'Detected attempt to inject malware payload and escalate privileges' => Benign (65%)
+[2025-06-28 22:58:15.317201] 'User received a welcome email and clicked on the verification link.' => unknown (0%)
+[2025-06-28 22:58:36.714687] 'The password reset email was opened but no action taken.' => unknown (0%)
+[2025-06-28 22:58:45.446948] 'Suspicious email with fake bank login page pretending to be official.' => unknown (0%)
+[2025-06-28 22:58:57.569188] 'User submitted credentials on phishing site disguised as Office365.' => unknown (0%)
+[2025-06-28 23:00:02.077027] 'User submitted credentials on phishing site disguised as Office365.' => unknown (0%)
+[2025-06-28 23:01:27.293813] 'User submitted credentials on phishing site disguised as Office365.' => -1 (77%)
+[2025-06-28 23:03:11.185264] 'Slowloris DoS attack holding HTTP sessions open' => BENIGN (96%)
+[2025-06-28 23:03:24.135168] 'Brute force SSH login attempts detected from single source' => -1 (77%)
+[2025-06-28 23:03:24.135168] '' => unknown (0%)
+[2025-06-28 23:03:47.908743] 'Brute force SSH login attempts detected from single source' => -1 (77%)
+[2025-06-28 23:18:53.496971] 'Brute force SSH login attempts detected from single source' => -1 (77%)
+[2025-06-28 23:21:51] 'Brute force SSH login attempts detected from single source' → -1 (77%)
+[2025-06-28 23:22:38] 'print(colored("🧾 Log ➤ " + log_line, "green"))' → unknown (0%)
+[2025-06-28 23:23:34] 'User submitted credentials to fake Office365 portal' → -1 (77%)
+[2025-06-28 23:26:36] 'User submitted credentials to fake Office365 portal' → -1 (77%)
+[2025-06-28 23:26:56] 'User submitted credentials to fake Office365 portal' → -1 (77%)
+[2025-06-29 11:12:11] '' → unknown (0%)
+[2025-06-29 11:12:33] 'cls' → unknown (0%)
+[2025-06-29 11:33:07] 'SYN flood is started on port 80' → Syn (95%)
+[2025-06-29 20:14:05] 'simulate unknown memory thread or anomaly in syscall' → BENIGN (88.0%)
+[2025-06-30 16:29:52] 'simulate unknown memory thread or anomaly in syscall' → BENIGN (100%)
+[2025-06-30 16:30:53] 'simulate stealth syscall injection using svchost' → BENIGN (100%)
+[2025-06-30 17:34:19] 'simulate tcp syn flood attack on port 80' → Normal (70.0%)
+[2025-06-30 17:35:53] 'syn flood tcp overflow on 80' → Normal (96.0%)
+[2025-06-30 18:23:52] 'system is hacked' → unknown (0%)
+[2025-07-03 18:47:56] 'scan 127.0.0.1' → unknown (0%)
+[2025-07-03 18:51:35] 'cls' → unknown (0%)
+[2025-07-03 18:54:38] '' → unknown (0%)
+[2025-07-03 18:55:11] 'User tried to login using stolen credentials and reset the password.' → -1 (77%)
+[2025-07-03 18:55:31] 'DROP TABLE users WHERE 1=1 -- classic injection!' → Benign (87%)
+[2025-07-03 18:55:51] 'A suspicious memory syscall was detected during payload injection.' → BENIGN (100%)
+[2025-07-03 18:56:12] 'Click here to verify your bank account immediately.' → -1 (77%)
+[2025-07-03 18:56:32] 'SYN flood attack initiated on port 80.' → Normal (86.0%)
+[2025-07-03 18:56:32] '' → unknown (0%)
+[2025-07-03 18:59:29] '' → unknown (0%)
+[2025-07-03 19:00:06] 'Click here to verify your bank account immediately.' → -1 (77%)
+[2025-07-03 19:04:10] 'Click here to verify your account now.' → -1 (77%)
+[2025-07-03 19:04:30] 'admin' OR 1=1 --' → Benign (87%)
+[2025-07-03 19:04:51] 'Payload linked to known ransomware signature.' → BENIGN (100%)
+[2025-07-03 19:05:11] 'SYN flood attack detected on port 80.' → Normal (96.0%)
+[2025-07-03 19:05:11] 'User logged in successfully from trusted device.' → unknown (0%)
+[2025-07-03 19:05:11] 'Testing just a string' → unknown (0%)
+[2025-07-03 19:09:57] 'Click here to verify your account now.' → -1 (77%)
+[2025-07-03 19:10:47] 'Click here to verify your account now.admin' OR 1=1 --' → Benign (87%)
+[2025-07-03 19:11:08] 'Payload linked to known ransomware signature.' → BENIGN (100%)
+[2025-07-03 19:11:28] 'SYN flood attack detected on port 80.' → Normal (72.0%)
+[2025-07-03 19:11:28] 'User logged in successfully from trusted device.' → unknown (0%)
+[2025-07-03 19:11:52] 'Testing just a string' → unknown (0%)
+[2025-07-03 19:16:47] 'Click here to verify your account now.' → -1 (77%)
+[2025-07-03 19:17:08] 'Your bank account has been suspended, login to restore access.' → -1 (77%)
+[2025-07-03 19:17:08] 'Urgent: Confirm your identity by entering your OTP.' → unknown (0%)
+[2025-07-03 19:17:28] 'You have won a reward. Submit credentials to claim.' → -1 (77%)
+[2025-07-03 19:17:49] 'Fake Apple login at http://apple.com.fake.login-page.co' → -1 (77%)
+[2025-07-03 19:22:10] 'admin' OR 1=1 --' → Benign (87%)
+[2025-07-03 19:22:30] '' OR '1'='1'; DROP TABLE users; --' → Benign (87%)
+[2025-07-03 19:22:51] '' OR 1=1 LIMIT 1 --' → Benign (87%)
+[2025-07-03 19:22:51] '" OR "" = "' → unknown (0%)
+[2025-07-03 19:23:11] '' UNION SELECT NULL, username, password FROM users --' → Benign (87%)
+[2025-07-03 19:23:32] 'Detected shellcode injection in process memory.' → BENIGN (100%)
+[2025-07-03 19:23:52] 'Payload linked to known ransomware signature.' → BENIGN (100%)
+[2025-07-03 19:23:52] 'Reverse TCP shell opened on port 4444.' → unknown (0%)
+[2025-07-03 19:24:13] 'Suspicious executable dropped in system32 directory.' → Benign (87%)
+[2025-07-03 19:24:13] 'Script tried to modify /etc/shadow permissions.' → unknown (0%)
+[2025-07-03 19:24:33] 'SYN flood attack detected on port 80.' → Normal (72.0%)
+[2025-07-03 19:24:54] 'Large number of TCP SYN packets without ACK.' → Normal (66.0%)
+[2025-07-03 19:24:54] 'Multiple half-open connections initiated by same IP.' → unknown (0%)
+[2025-07-03 19:24:54] 'Suspicious traffic spikes from 192.168.1.200' → unknown (0%)
+[2025-07-03 19:24:54] 'ICMP flood pattern observed on network interface.' → unknown (0%)
+[2025-07-03 19:24:54] 'User logged in successfully from trusted device.' → unknown (0%)
+[2025-07-03 19:24:54] 'Scheduled cron job completed without error.' → unknown (0%)
+[2025-07-03 19:24:54] 'Daily backup completed to cloud storage.' → unknown (0%)
+[2025-07-03 19:24:54] 'Heartbeat packet sent to monitoring server.' → unknown (0%)
+[2025-07-03 19:25:14] 'No anomaly detected in user session.' → BENIGN (88.0%)
+[2025-07-03 19:25:14] 'Hello system' → unknown (0%)
+[2025-07-03 19:25:14] 'Check this input pls' → unknown (0%)
+[2025-07-03 19:25:14] 'Testing just a string' → unknown (0%)
+[2025-07-03 19:25:14] '123456789' → unknown (0%)
+[2025-07-03 19:25:14] 'Nothing much to say here' → unknown (0%)
+[2025-07-03 21:29:26] 'route("SELECT * FROM users WHERE username='admin' OR 1=1 --")' → Benign (88%)
+[2025-07-03 21:29:55] 'SELECT * FROM users WHERE username='admin' OR 1=1 --' → Benign (88%)
+[2025-07-03 21:30:08] 'simulate sql' → unknown (0%)
+[2025-07-03 21:30:17] 'simulate' → unknown (0%)
+[2025-07-03 21:32:04] '"OR 1=1 --"' → Benign (83%)
+[2025-07-03 21:32:21] '' OR 'a'='a'' → unknown (0%)
+[2025-07-03 21:32:21] '' → unknown (0%)
+[2025-07-03 21:32:42] 'admin' --' → Benign (83%)
+[2025-07-03 21:32:42] '' → unknown (0%)
+[2025-07-03 21:32:42] '1' OR '1'='1' → unknown (0%)
+[2025-07-03 21:32:42] '' → unknown (0%)
+[2025-07-03 21:32:42] 'admin' #' → unknown (0%)
+[2025-07-03 21:32:42] '' → unknown (0%)
+[2025-07-03 21:33:02] 'UNION SELECT ...' → Malicious (100%)
+[2025-07-03 21:33:02] '' → unknown (0%)
+[2025-07-03 21:34:24] 'OR EXISTS (SELECT * FROM ...)' → Benign (94%)
+[2025-07-03 22:15:31] 'SELECT * FROM users WHERE username='admin' OR 1=1 --' → Malicious (79%)
+[2025-07-03 22:16:01] '' OR 'a'='a'' → unknown (0%)
+[2025-07-03 22:16:21] 'admin' --' → Benign (82%)
+[2025-07-03 22:16:21] '" OR 1=1#' → unknown (0%)
+[2025-07-03 22:16:42] 'UNION SELECT username, password FROM users--' → Malicious (93%)
+[2025-07-03 22:18:35] '"C:/Program Files/Python312/python.exe" c:/QVoid-MutantAI/interceptor.py' → unknown (0%)
+[2025-07-03 22:52:21] 'SELECT * FROM users WHERE name=0x61646D696E OR 1=1--' → Malicious (63%)
+[2025-07-03 22:52:55] '-1 UNION/**/SELECT/**/NULL,NULL,username,password/**/FROM/**/users--+' → Malicious (90%)
+[2025-07-03 22:53:27] '' OR (SELECT COUNT(*) FROM information_schema.tables) > 0 --' → Malicious (91%)
+[2025-07-03 22:53:51] '1' AND IF(1=1, SLEEP(5), 0)--+' → Malicious (100%)
+[2025-07-03 22:55:00] '0x61646D696E' → unknown (0%)
+[2025-07-03 22:55:00] 'CHAR(97)+CHAR(100)+CHAR(109)+CHAR(105)+CHAR(110)' → unknown (0%)
+[2025-07-04 18:32:52] '1' OR '1'='1' → unknown (0%)
+[2025-07-04 18:33:13] 'admin' --' → Malicious (100%)
+[2025-07-04 18:33:34] '' OR sleep(5) --' → Malicious (100%)
+[2025-07-04 18:33:55] 'SELECT * FROM users WHERE username = 'admin' --' → Malicious (67%)
+[2025-07-04 18:34:15] '1; DROP TABLE users' → Malicious (79%)
+[2025-07-04 19:22:36] '' OR 1=1 --' → Malicious (100%)
+[2025-07-04 19:22:36] 'admin' OR '1'='1' → unknown (0%)
+[2025-07-04 19:22:57] 'SELECT * FROM users WHERE password LIKE '%123%'' → Malicious (56%)
+[2025-07-04 19:23:17] '1; DROP TABLE users' → Malicious (93%)
+[2025-07-04 20:01:19] '' → unknown (0%)
+[2025-07-04 20:03:21] '' OR (SELECT COUNT(*) FROM users WHERE username LIKE '%admin%') > 0 --' → Malicious (82%)
+[2025-07-04 20:03:48] '' OR IF(1=1, SLEEP(10), 0) --+' → Malicious (78%)
+[2025-07-04 20:04:13] '' UNION/**/SELECT/**/NULL,NULL,version()--+' → Malicious (99%)
+[2025-07-04 20:04:41] '' OR 0x61646D696E=0x61646D696E --' → Malicious (100%)
+[2025-07-04 20:05:11] ''; EXEC xp_cmdshell('whoami'); --' → Malicious (100%)
+[2025-07-05 07:33:39] '' OR 0x61646D696E=0x61646D696E --' → Malicious (100%)
+[2025-07-05 07:33:49] 'sinff' → unknown (0%)
+[2025-07-05 07:42:29] 'syn flood tcp overflow on 80' → Normal (68.5%)
+[2025-07-05 07:47:57] 'syn flood tcp overflow on 80' → Normal (84.5%)
+[2025-07-05 07:48:27] 'OR 0x61646D696E=0x61646D696E --' → Malicious (100%)
+[2025-07-05 07:48:59] 'EXEC xp_cmdshell('whoami'); --' → Malicious (100%)
+[2025-07-05 07:50:20] 192.168.1.1 ➤ 'NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CAC...' → BENIGN (96%)
+[PLUGIN:KoradaModulePlugin] 📋
+
+## 🔒 Security Audit Report
+**Target:** `192.168.1.1`  
+**Scan Date:** 2025-07-05 07:50:20  
+**Generated By:** KoradaModulePlugin v1.0
+
+### 📡 Open Ports
+- 🔓 Port `23` (telnet)
+- 🔓 Port `53` (domain)
+- 🔓 Port `80` (http)
+
+### 🔍 Service Versions
+- Port `23`: telnet (no version detection)
+- Port `53`: domain (no version detection)
+- Port `80`: Unknown
+
+### 🚨 Identified Vulnerabilities
+✅ No vulnerabilities detected
+
+
+### ⚠️ Security Flaws
+✅ No security flaws detected
+
+
+
+[2025-07-05 07:50:38] 192.168.1.1 ➤ 'NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CAC...' → BENIGN (96%)
+[PLUGIN:KoradaModulePlugin] 📋
+
+## 🔒 Security Audit Report
+**Target:** `192.168.1.1`  
+**Scan Date:** 2025-07-05 07:50:38  
+**Generated By:** KoradaModulePlugin v1.0
+
+### 📡 Open Ports
+- 🔓 Port `23` (telnet)
+- 🔓 Port `53` (domain)
+- 🔓 Port `80` (http)
+
+### 🔍 Service Versions
+- Port `23`: telnet (no version detection)
+- Port `53`: domain (no version detection)
+- Port `80`: Unknown
+
+### 🚨 Identified Vulnerabilities
+✅ No vulnerabilities detected
+
+
+### ⚠️ Security Flaws
+✅ No security flaws detected
+
+
+
+[2025-07-05 07:50:56] 192.168.1.1 ➤ 'NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CAC...' → BENIGN (96%)
+[PLUGIN:KoradaModulePlugin] 📋
+
+## 🔒 Security Audit Report
+**Target:** `192.168.1.1`  
+**Scan Date:** 2025-07-05 07:50:56  
+**Generated By:** KoradaModulePlugin v1.0
+
+### 📡 Open Ports
+- 🔓 Port `23` (telnet)
+- 🔓 Port `53` (domain)
+- 🔓 Port `80` (http)
+
+### 🔍 Service Versions
+- Port `23`: telnet (no version detection)
+- Port `53`: domain (no version detection)
+- Port `80`: Unknown
+
+### 🚨 Identified Vulnerabilities
+✅ No vulnerabilities detected
+
+
+### ⚠️ Security Flaws
+✅ No security flaws detected
+
+
+
+[2025-07-05 07:54:07] 'OR 0x61646D696E=0x61646D696E --' → Malicious (100%)
