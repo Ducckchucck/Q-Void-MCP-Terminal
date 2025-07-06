@@ -43,6 +43,9 @@ QVoid uses a hybrid model system divided by attack type and contributor. Each is
 
 ---
 
+## 🔹 External Collaborators:
+- Chaitanya Korada – External Contributor – Cybersecurity & AI Enthusiast @ QVoid
+
 ## 🛠️ Command Pipeline
 
 ```bash
@@ -52,3 +55,5 @@ C:\QVoid-MutantAI> python -m qvoid_fusion.core.main
 
  Enter input (or 'exit'):  syn overflow port 80
  > 🛡️ SYN Flood detected | Model: Akhilesh | Action: Intercepted and Logged
+
+
