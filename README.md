@@ -45,7 +45,7 @@ QVoid uses a hybrid model system divided by attack type and contributor. Each is
 
 ## 🔹 External Collaborators:
 - Chaitanya Korada – External Contributor – Cybersecurity & AI Enthusiast @ QVoid
-- → Contributed a security audit script plugin, enhancing detection modules during plugin phase.
+→ Contributed a security audit script plugin, enhancing detection modules during plugin phase.
 
 ## 🛠️ Command Pipeline
 
