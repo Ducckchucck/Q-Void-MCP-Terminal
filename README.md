@@ -35,7 +35,7 @@ Developed as part of the **QVoid Cyber Framework**, this tool acts as the **MCP*
 QVoid uses a hybrid model system divided by attack type and contributor. Each is trained on isolated data pipelines and merged via MCP logic:
 
 - **Infiltration Detection** – Jeya Model  
-- **SQL Injection Detection** – Piyush Model  
+- **SQL Injection Detection & CICIDS ** – Piyush Model  
 - **SYN Flood Mitigation** – Akhilesh Model  
 - **Phishing Classification** – Shrikant Model  
 - **Malware Detection (Roadmap)** – DNA Layer in progress  
@@ -45,6 +45,7 @@ QVoid uses a hybrid model system divided by attack type and contributor. Each is
 
 ## 🔹 External Collaborators:
 - Chaitanya Korada – External Contributor – Cybersecurity & AI Enthusiast @ QVoid
+- → Contributed a security audit script plugin, enhancing detection modules during plugin phase.
 
 ## 🛠️ Command Pipeline
 
