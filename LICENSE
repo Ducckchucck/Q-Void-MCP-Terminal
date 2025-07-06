@@ -1,19 +1,18 @@
-MIT License (Modified for QVoid Project)
-
 Copyright (c) 2025 Piyush Mapari
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software for learning, reference, or development purposes, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to use, modify, and distribute for **educational, personal learning, or non-commercial development** purposes, subject to the following conditions:
 
-1. The Software, including but not limited to its architecture, model routing logic (MCP), terminal command flow, encryption layers (QVoidCrypt), and AI assistant integration (SIA), must not be copied, cloned, or repackaged for any commercial or derivative product without **explicit written consent**.
+1. **Commercial use, repackaging, or derivative deployment** of this Software or any of its components — including but not limited to its architecture, model control protocol (MCP), packet processing pipeline, QVoidCrypt encryption layer, and AI assistant integration (SIA) — is strictly prohibited **without explicit written consent from the original author.**
 
-2. Attribution must be maintained to the original creator: Piyush Mapari, and the QVoid Project.
+2. **Attribution must be clearly maintained** to:
+   - **Piyush Mapari (Author & Architect)**
+   - **QVoid Project** (Original Framework)
 
-3. No liability is held by the author for misuse or breach of this license.
+3. **Rehosting, rebranding, obfuscation, or partial extraction** of this system for publication, monetization, or inclusion in any SaaS/platform is forbidden unless licensed explicitly.
 
-This license allows educational and experimental use with credit.
+4. This Software is provided “as is”, without warranty of any kind, express or implied. The author holds **no liability** for any loss, misuse, or legal impact arising from the use of this project.
 
-Unauthorized duplication or republishing of the system’s core architecture is strictly prohibited.
+---
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+This license permits experimentation, academic exploration, and learning **with proper credit.** Unauthorized duplication or use of QVoid’s core system logic, naming, or design may lead to takedown actions and legal enforcement.
+
