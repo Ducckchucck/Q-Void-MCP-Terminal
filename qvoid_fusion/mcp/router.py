@@ -8,13 +8,19 @@ from qvoid_fusion.models import (
 )
 
 from qvoid_fusion.plugins import registered_plugins
+from qvoid_fusion.mcp.memory import DNAMemory
+# from qvoid_fusion.qcrypt.qvoidcrypt_qkd import simulate_qkd_keypair  # Future integration
+
+memory = DNAMemory()
 
 
 def route(input_data):
     """
+    QVoid MCP Routing Engine 🧠⚛️
+
     input_data can be either:
-    - str (raw text)
-    - dict with keys: 'text', 'src_ip', 'dst_ip', etc.
+    - str (raw input)
+    - dict with keys: 'text', 'src_ip', etc.
     """
 
     # Step 1: Normalize input
@@ -27,7 +33,11 @@ def route(input_data):
     else:
         return {"verdict": "invalid input", "confidence": 0}
 
-    # Step 2: Model routing
+    model_name = "unknown"
+    previous_label = "UNKNOWN"
+    result = {"verdict": "unknown", "confidence": 0}
+
+    # Step 2: Model Routing
     if any(k in text for k in ["select", "drop", "union", "insert", "--"]):
         result = model_sql.predict(text)
         model_name = "model_sql"
@@ -55,7 +65,10 @@ def route(input_data):
     else:
         return {"verdict": "unknown", "confidence": 0}
 
-    # Step 3: Trigger plugins
+    # Step 3: Update DNA Memory
+    memory.update(result["verdict"], previous=previous_label)
+
+    # Step 4: Plugin Hooks
     plugin_reports = []
     for plugin in registered_plugins:
         if hasattr(plugin, "run"):
@@ -73,10 +86,11 @@ def route(input_data):
                     "error": str(e)
                 })
 
-    # Step 4: Final response
+    # Step 5: Return Response
     return {
         "model": model_name,
         "verdict": result.get("verdict", "N/A"),
         "confidence": result.get("confidence", 0),
         "plugins": plugin_reports
+        # Optional Future: 'qkd_keys': simulate_qkd_keypair()  # when live
     }
