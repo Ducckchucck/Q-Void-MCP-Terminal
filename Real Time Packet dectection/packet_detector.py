@@ -4,6 +4,16 @@ import threading
 import time
 import os
 
+
+import os
+
+# Store RTPI PID
+pid_file = os.path.join("logs", "rtpi.pid")
+os.makedirs("logs", exist_ok=True)
+with open(pid_file, "w") as f:
+    f.write(str(os.getpid()))
+
+
 INTERFACE = "Wi-Fi"
 running = True
 

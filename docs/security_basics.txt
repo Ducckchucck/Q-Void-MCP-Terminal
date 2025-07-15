@@ -1,0 +1,3 @@
+SQL Injection is a code injection technique.
+SYN Flood is a type of denial-of-service attack.
+Phishing attempts to trick users into giving up sensitive information.
