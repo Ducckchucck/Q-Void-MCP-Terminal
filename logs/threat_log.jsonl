@@ -191,3 +191,31 @@
 {"input": "exploit ftp anonymous login", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-14T08:52:08.962300"}
 {"input": "brute force ssh login user admin password 123456", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-14T08:52:29.654134"}
 {"input": "autosniff", "verdict": "UNKNOWN", "confidence": 75, "timestamp": "2025-07-14T11:15:47.830504"}
+{"input": "sql injection login bypass select * from users", "verdict": "MALICIOUS", "confidence": 75, "timestamp": "2025-07-14T12:12:54.253363"}
+{"input": "phishing http link login google auth reset", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-14T12:13:15.068165"}
+{"input": "access dashboard root password admin123", "verdict": "UNKNOWN", "confidence": 82, "timestamp": "2025-07-14T12:13:15.069268"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SUSPICIOUS", "confidence": 88, "timestamp": "2025-07-14T12:13:35.720238"}
+{"input": "ftp brute force attack admin guest", "verdict": "BENIGN", "confidence": 96, "timestamp": "2025-07-14T12:13:56.646124"}
+{"input": "malware exe dropper behavior detected", "verdict": "BENIGN", "confidence": 99, "timestamp": "2025-07-14T12:14:17.326992"}
+{"input": "unauthorized shell reverse tcp 4444", "verdict": "UNKNOWN", "confidence": 83, "timestamp": "2025-07-14T12:14:17.338504"}
+{"input": "cross site scripting payload <script>alert('hacked')</script>", "verdict": "BENIGN", "confidence": 100, "timestamp": "2025-07-14T12:14:37.971103"}
+{"input": "ransomware encryption start on drive c:", "verdict": "UNKNOWN", "confidence": 79, "timestamp": "2025-07-14T12:14:37.979112"}
+{"input": "privilege escalation using kernel exploit", "verdict": "UNKNOWN", "confidence": 75, "timestamp": "2025-07-14T12:14:37.979112"}
+{"input": "malware exe dropper behavior detected", "verdict": "BENIGN", "confidence": 99, "timestamp": "2025-07-14T12:24:38.343671"}
+{"input": "unauthorized shell reverse tcp 4444", "verdict": "UNKNOWN", "confidence": 83, "timestamp": "2025-07-14T12:24:38.343671"}
+{"input": "cross site scripting payload <script>alert('hacked')</script>", "verdict": "BENIGN", "confidence": 100, "timestamp": "2025-07-14T12:24:58.752567"}
+{"input": "ransomware encryption start on drive c:", "verdict": "UNKNOWN", "confidence": 79, "timestamp": "2025-07-14T12:24:58.756561"}
+{"input": "privilege escalation using kernel exploit", "verdict": "UNKNOWN", "confidence": 75, "timestamp": "2025-07-14T12:34:26.950853"}
+{"input": "autosnif", "verdict": "UNKNOWN", "confidence": 84, "timestamp": "2025-07-14T13:30:53.169079"}
+{"input": "dns", "verdict": "UNKNOWN", "confidence": 84, "timestamp": "2025-07-15T12:07:13.852553"}
+{"input": "dna satus", "verdict": "UNKNOWN", "confidence": 75, "timestamp": "2025-07-15T12:09:14.813368"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SUSPICIOUS", "confidence": 88, "timestamp": "2025-07-15T12:10:12.936122"}
+{"input": "sql union select admin for credentials", "verdict": "MALICIOUS", "confidence": 88, "timestamp": "2025-07-15T12:10:50.316557"}
+{"input": "drop table users; --", "verdict": "MALICIOUS", "confidence": 93, "timestamp": "2025-07-15T12:12:07.430674"}
+{"input": "exploit ftp anonymous login", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-15T12:12:53.197120"}
+{"input": "brute force ssh login user admin password 123456", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-15T12:14:09.863605"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SUSPICIOUS", "confidence": 88, "timestamp": "2025-07-15T13:24:12.596990"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SUSPICIOUS", "confidence": 88, "timestamp": "2025-07-15T14:13:58.245988"}
+{"input": "sql union select admin from credentials", "verdict": "MALICIOUS", "confidence": 88, "timestamp": "2025-07-15T14:14:36.732786"}
+{"input": "drop table users; --", "verdict": "MALICIOUS", "confidence": 93, "timestamp": "2025-07-15T14:15:08.288530"}
+{"input": "dna status", "verdict": "UNKNOWN", "confidence": 82, "timestamp": "2025-07-15T14:17:42.691470"}

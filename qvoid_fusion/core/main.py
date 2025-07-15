@@ -147,6 +147,7 @@ while True:
         print(colored(" Attack simulation complete!", "red"))
         continue
 
+
     # if cmd.lower().startswith("similar "):
     #     try:
     #         payload = cmd.split("similar", 1)[1].strip()
@@ -157,6 +158,16 @@ while True:
     #     except Exception as e:
     #         print(colored(f"[ERROR] Retrieval failed: {e}", "red"))
     #     continue
+    if cmd.lower().startswith("scan usb"):
+        usb_path = cmd.split(" ", 2)[-1] if len(cmd.split()) > 2 else "test_usb"
+        print(colored(f"🖴 Scanning USB directory: {usb_path}", "cyan"))
+        try:
+            from qvoid_fusion.utils.usb_scanner import scan_usb
+            scan_usb(usb_path)
+        except Exception as e:
+            print(colored(f"[ERROR] USB Scan failed: {e}", "red"))
+        continue
+
 
     if cmd.lower() == "whoami":
         session = CONFIG.get("session_id", "N/A")
