@@ -1,0 +1,12 @@
+__pycache__/ 
+*.pyc 
+*.log 
+*.pid 
+*.pkl 
+*.bak 
+*.csv 
+*.pcap 
+.env 
+venv/ 
+siaenv/ 
+logs/ 

@@ -1,0 +1,7 @@
+{
+    "ip": "192.168.245.59",
+    "timestamp": "2025-07-15T14:39:23.066624",
+    "prediction": "malicious",
+    "packet_summary": "Ether / IP / ICMP 192.168.245.59 > 192.168.245.153 echo-request 0 / Raw",
+    "raw_bytes": "b'H\\xa4rD{|*C\\\\\\x0e\\xa8\\x0b\\x08\\x00E\\x00\\x00T\\x14\\xfa@\\x00@\\x01\\xb9\\x88\\xc0\\xa8\\xf5;\\xc0\\xa8\\xf5\\x99\\x08\\x00x5\\x00\\x11\\x00\\x1d\\xbf\\x1avh\\x00\\x00\\x00\\x00\\x86F\\x05\\x00\\x00\\x00\\x00\\x00\\x10\\x11\\x12\\x13\\x14\\x15\\x16\\x17\\x18\\x19\\x1a\\x1b\\x1c\\x1d\\x1e\\x1f !\"#$%&\\'()*+,-./01234567'"
+}

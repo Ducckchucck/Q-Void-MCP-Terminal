@@ -26,14 +26,12 @@ def sanitize_verdict(verdict):
     }
     return mapping.get(str(verdict), str(verdict).upper())
 
-
 # ✅ Log file setup
 DNA_LOG_PATH = "logs/threat_log.jsonl"
 os.makedirs("logs", exist_ok=True)
 if not os.path.exists(DNA_LOG_PATH):
     with open(DNA_LOG_PATH, "w", encoding="utf-8") as f:
         pass
-
 
 # ✅ DNA Logger Class
 class QVoidDNA:
@@ -43,13 +41,11 @@ class QVoidDNA:
     def store_event(self, data):
         """Store a threat or input scan result in the DNA memory log"""
         try:
-            # Sanitize and format data
             raw_verdict = data.get("verdict", "UNKNOWN")
             clean_verdict = sanitize_verdict(raw_verdict)
             data["verdict"] = clean_verdict
             data["timestamp"] = datetime.now().isoformat()
 
-            # Ensure JSON-safe data
             json_ready = {
                 k: int(v) if isinstance(v, bool)
                 else str(v) if isinstance(v, (bytes, bytearray))
@@ -62,6 +58,22 @@ class QVoidDNA:
 
         except Exception as e:
             print(f"[!!] Logging error: {e}")
+
+    def count_logs(self):
+        """Count total log entries"""
+        try:
+            with open(self.memory_file, "r", encoding="utf-8") as f:
+                return sum(1 for _ in f if _.strip())
+        except:
+            return 0
+
+    def clear(self):
+        """Clear memory log"""
+        try:
+            with open(self.memory_file, "w", encoding="utf-8") as f:
+                f.write("")
+        except Exception as e:
+            print(f"[!!] Clear error: {e}")
 
     def search_memory(self, keyword):
         """Return all memory events that match a given keyword"""
@@ -91,5 +103,3 @@ class QVoidDNA:
             verdict = sanitize_verdict(entry.get("verdict", "UNKNOWN"))
             verdict_counts[verdict] = verdict_counts.get(verdict, 0) + 1
         return verdict_counts
-
-

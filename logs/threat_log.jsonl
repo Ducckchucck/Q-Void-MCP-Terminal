@@ -95,3 +95,127 @@
 {"input": "OR 0x61646D696E=0x61646D696E --", "verdict": "MALICIOUS", "confidence": 100, "timestamp": "2025-07-05T07:48:27.002474"}
 {"input": "EXEC xp_cmdshell('whoami'); --", "verdict": "MALICIOUS", "confidence": 100, "timestamp": "2025-07-05T07:48:59.189508"}
 {"input": "OR 0x61646D696E=0x61646D696E --", "verdict": "MALICIOUS", "confidence": 100, "timestamp": "2025-07-05T07:54:07.762380"}
+{"input": "OR 0x61646D696E=0x61646D696E --", "verdict": "MALICIOUS", "confidence": 100, "timestamp": "2025-07-06T20:02:37.643355"}
+{"input": "OR 0x61646D696E=0x61646D696E --", "verdict": "MALICIOUS", "confidence": 100, "timestamp": "2025-07-06T20:03:46.102870"}
+{"input": "", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-08T11:26:32.531569"}
+{"input": "SYN flood at port 80", "verdict": "SYN_ATTACK", "confidence": 84.5, "timestamp": "2025-07-08T11:30:31.829633"}
+{"input": "system in under attack", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-08T11:32:50.077897"}
+{"input": "sql attack on port 4444", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-08T11:33:04.105575"}
+{"input": "sql attack on port 80", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-08T11:33:08.298282"}
+{"input": "Enter input (or 'exit'): geolocate 8.8.8.8", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-08T12:17:38.615440"}
+{"input": "geolocate", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-08T12:17:49.422129"}
+{"input": "SYN flood at port 80", "verdict": "SYN_ATTACK", "confidence": 83.5, "timestamp": "2025-07-08T12:18:38.851643"}
+{"input": "dna", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-08T12:18:48.784149"}
+{"input": "SYN flood at port 4444", "verdict": "SYN_ATTACK", "confidence": 84.5, "timestamp": "2025-07-08T12:19:16.539786"}
+{"input": "SYN flood at port 7777", "verdict": "SYN_ATTACK", "confidence": 84.5, "timestamp": "2025-07-08T12:19:43.932088"}
+{"input": "geolocate 8.8.8.8", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-09T19:38:12.052826"}
+{"input": "sia", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-10T16:36:03.214522"}
+{"input": "syn flood on port 80", "verdict": "SYN_ATTACK", "confidence": 84.5, "timestamp": "2025-07-11T10:48:22.479054"}
+{"input": "SYN flood on port 80", "verdict": "SYN_ATTACK", "confidence": 84.5, "timestamp": "2025-07-11T10:49:07.833276"}
+{"input": "geoloacte 8.8.8.8", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-11T10:52:37.690752"}
+{"input": "access dashboard root password admin123", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-11T11:40:15.126575"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SYN_ATTACK", "confidence": 84.5, "timestamp": "2025-07-11T11:41:08.922515"}
+{"input": "sql injection login bypass select * from users", "verdict": "MALICIOUS", "confidence": 60, "timestamp": "2025-07-11T11:42:04.325650"}
+{"input": "phishing http link login google auth reset", "verdict": "-1", "confidence": 77, "timestamp": "2025-07-11T11:42:37.959333"}
+{"input": "geolocate 8.8.8.8", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-11T11:46:21.861256"}
+{"input": "rtpi", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-11T11:49:40.810618"}
+{"input": "rtpi", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-11T12:16:11.177005"}
+{"input": "geolocate 8.8.8.8", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-11T12:24:04.315645"}
+{"input": "gelocate", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-11T13:09:39.073542"}
+{"input": "access dashboard root password admin123", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-11T13:10:17.691704"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SYN_ATTACK", "confidence": 84.5, "timestamp": "2025-07-11T13:10:56.995021"}
+{"input": "cls", "verdict": "UNKNOWN", "confidence": 0, "timestamp": "2025-07-11T13:29:28.952267"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SYN_ATTACK", "confidence": 84.5, "timestamp": "2025-07-11T20:22:38.983001"}
+{"input": "sql injection login bypass select * from users", "verdict": "MALICIOUS", "confidence": 60, "timestamp": "2025-07-11T20:23:20.112601"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SYN_ATTACK", "confidence": 84.5, "timestamp": "2025-07-13T08:52:07.886500"}
+{"input": "sql injection login bypass select * from users", "verdict": "MALICIOUS", "confidence": 60, "timestamp": "2025-07-13T08:54:48.472751"}
+{"input": "sql union select admin from credentials", "verdict": "MALICIOUS", "confidence": 58, "timestamp": "2025-07-13T08:55:14.242924"}
+{"input": "drop table users; --", "verdict": "MALICIOUS", "confidence": 93, "timestamp": "2025-07-13T08:55:46.847386"}
+{"input": "phishing http link login google auth reset", "verdict": "-1", "confidence": 77, "timestamp": "2025-07-13T08:56:26.203783"}
+{"input": "malware upload shell.php backdoor", "verdict": "BENIGN", "confidence": 100, "timestamp": "2025-07-13T08:56:59.046402"}
+{"input": "syn flood tcp overflow on 80", "verdict": "BENIGN", "confidence": 83.5, "timestamp": "2025-07-13T09:01:07.755229"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SUSPICIOUS", "confidence": 88, "timestamp": "2025-07-13T09:07:40.209353"}
+{"input": "sql injection login bypass select * from users", "verdict": "MALICIOUS", "confidence": 79, "timestamp": "2025-07-13T09:08:58.002469"}
+{"input": "sql union select admin from credentials", "verdict": "MALICIOUS", "confidence": 83, "timestamp": "2025-07-13T09:09:18.611348"}
+{"input": "drop table users; --", "verdict": "MALICIOUS", "confidence": 93, "timestamp": "2025-07-13T09:09:39.351652"}
+{"input": "phishing http link login google auth reset", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-13T09:09:59.935652"}
+{"input": "malware upload shell.php backdoor", "verdict": "BENIGN", "confidence": 100, "timestamp": "2025-07-13T09:10:20.523857"}
+{"input": "access dashboard root password admin123", "verdict": "UNKNOWN", "confidence": 78, "timestamp": "2025-07-13T09:10:20.531012"}
+{"input": "exploit ftp anonymous login", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-13T09:10:41.131630"}
+{"input": "cross site scripting <script>alert('xss')</script>", "verdict": "UNKNOWN", "confidence": 89, "timestamp": "2025-07-13T09:10:41.131630"}
+{"input": "ransomware encrypt all files", "verdict": "UNKNOWN", "confidence": 75, "timestamp": "2025-07-13T09:10:41.152045"}
+{"input": "brute force ssh login user admin password 123456", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-13T09:11:02.069262"}
+{"input": "ddos attack 192.168.1.100 port 80", "verdict": "BENIGN", "confidence": 83.5, "timestamp": "2025-07-13T09:11:22.507377"}
+{"input": "format c: /Q /Y", "verdict": "UNKNOWN", "confidence": 86, "timestamp": "2025-07-13T09:11:22.508663"}
+{"input": "shutdown -s -t 00", "verdict": "UNKNOWN", "confidence": 89, "timestamp": "2025-07-13T09:11:22.511717"}
+{"input": "rm -rf / --no-preserve-root", "verdict": "BENIGN", "confidence": 100, "timestamp": "2025-07-13T09:13:36.809133"}
+{"input": "phishing http link login google auth reset", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-13T12:29:43.557733"}
+{"input": "cross site scripting <script>alert('xss')</script>", "verdict": "UNKNOWN", "confidence": 79, "timestamp": "2025-07-13T12:30:08.495627"}
+{"input": "ransomware encrypt all files", "verdict": "UNKNOWN", "confidence": 81, "timestamp": "2025-07-13T12:30:18.516130"}
+{"input": "ddos attack 192.168.1.100 port 80", "verdict": "BENIGN", "confidence": 84.5, "timestamp": "2025-07-13T12:30:45.596154"}
+{"input": "cls", "verdict": "UNKNOWN", "confidence": 89, "timestamp": "2025-07-13T12:30:56.189227"}
+{"input": "", "verdict": "UNKNOWN", "confidence": 75, "timestamp": "2025-07-14T05:47:17.799396"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SUSPICIOUS", "confidence": 88, "timestamp": "2025-07-14T05:48:12.563038"}
+{"input": "sql injection login bypass select * from users", "verdict": "MALICIOUS", "confidence": 76, "timestamp": "2025-07-14T05:49:02.286958"}
+{"input": "sql union select admin from credentials", "verdict": "MALICIOUS", "confidence": 84, "timestamp": "2025-07-14T05:50:00.321938"}
+{"input": "drop table users; --", "verdict": "MALICIOUS", "confidence": 93, "timestamp": "2025-07-14T05:50:40.599435"}
+{"input": "phishing http link login google auth reset", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-14T05:51:26.430346"}
+{"input": "malware upload shell.php backdoor", "verdict": "BENIGN", "confidence": 100, "timestamp": "2025-07-14T05:52:05.799718"}
+{"input": "access dashboard root password admin123", "verdict": "UNKNOWN", "confidence": 80, "timestamp": "2025-07-14T05:52:55.416482"}
+{"input": "exploit ftp anonymous login", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-14T05:53:53.098684"}
+{"input": "cross site scripting <script>alert('xss')</scripts>", "verdict": "UNKNOWN", "confidence": 84, "timestamp": "2025-07-14T05:54:58.823246"}
+{"input": "ransomware encrypt all files", "verdict": "UNKNOWN", "confidence": 85, "timestamp": "2025-07-14T05:55:36.595836"}
+{"input": "brute force ssh login user admin password 123456", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-14T05:56:42.075217"}
+{"input": "ddos attack 192.168.1.100 port 80", "verdict": "BENIGN", "confidence": 83.5, "timestamp": "2025-07-14T05:57:36.288854"}
+{"input": "format c: /Q /Y", "verdict": "UNKNOWN", "confidence": 83, "timestamp": "2025-07-14T05:58:03.869371"}
+{"input": "shutdown -s -t 00", "verdict": "UNKNOWN", "confidence": 86, "timestamp": "2025-07-14T05:58:13.033882"}
+{"input": "rm -rf / --no-preserve-root", "verdict": "BENIGN", "confidence": 100, "timestamp": "2025-07-14T05:58:41.006763"}
+{"input": "firewall status", "verdict": "UNKNOWN", "confidence": 80, "timestamp": "2025-07-14T06:00:07.464302"}
+{"input": "ping google.com", "verdict": "UNKNOWN", "confidence": 77, "timestamp": "2025-07-14T06:00:26.552457"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SUSPICIOUS", "confidence": 88, "timestamp": "2025-07-14T06:01:30.629013"}
+{"input": "sql union select admin from credentials", "verdict": "MALICIOUS", "confidence": 82, "timestamp": "2025-07-14T06:01:51.260759"}
+{"input": "drop table users; --", "verdict": "MALICIOUS", "confidence": 93, "timestamp": "2025-07-14T06:02:11.879028"}
+{"input": "access dashboard root password admin123", "verdict": "UNKNOWN", "confidence": 82, "timestamp": "2025-07-14T06:02:11.883737"}
+{"input": "exploit ftp anonymous login", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-14T06:02:32.435394"}
+{"input": "brute force ssh login user admin password 123456", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-14T06:03:09.517880"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SUSPICIOUS", "confidence": 88, "timestamp": "2025-07-14T07:17:38.661661"}
+{"input": "sql union select admin from credentials", "verdict": "MALICIOUS", "confidence": 84, "timestamp": "2025-07-14T07:17:59.015565"}
+{"input": "drop table users; --", "verdict": "MALICIOUS", "confidence": 93, "timestamp": "2025-07-14T07:18:19.497043"}
+{"input": "access dashboard root password admin123", "verdict": "UNKNOWN", "confidence": 88, "timestamp": "2025-07-14T07:18:19.502030"}
+{"input": "exploit ftp anonymous login", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-14T07:18:40.052589"}
+{"input": "brute force ssh login user admin password 123456", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-14T07:19:04.420468"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SUSPICIOUS", "confidence": 88, "timestamp": "2025-07-14T08:51:07.109280"}
+{"input": "sql union select admin from credentials", "verdict": "MALICIOUS", "confidence": 75, "timestamp": "2025-07-14T08:51:27.753338"}
+{"input": "drop table users; --", "verdict": "MALICIOUS", "confidence": 93, "timestamp": "2025-07-14T08:51:48.363342"}
+{"input": "access dashboard root password admin123", "verdict": "UNKNOWN", "confidence": 87, "timestamp": "2025-07-14T08:51:48.367537"}
+{"input": "exploit ftp anonymous login", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-14T08:52:08.962300"}
+{"input": "brute force ssh login user admin password 123456", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-14T08:52:29.654134"}
+{"input": "autosniff", "verdict": "UNKNOWN", "confidence": 75, "timestamp": "2025-07-14T11:15:47.830504"}
+{"input": "sql injection login bypass select * from users", "verdict": "MALICIOUS", "confidence": 75, "timestamp": "2025-07-14T12:12:54.253363"}
+{"input": "phishing http link login google auth reset", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-14T12:13:15.068165"}
+{"input": "access dashboard root password admin123", "verdict": "UNKNOWN", "confidence": 82, "timestamp": "2025-07-14T12:13:15.069268"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SUSPICIOUS", "confidence": 88, "timestamp": "2025-07-14T12:13:35.720238"}
+{"input": "ftp brute force attack admin guest", "verdict": "BENIGN", "confidence": 96, "timestamp": "2025-07-14T12:13:56.646124"}
+{"input": "malware exe dropper behavior detected", "verdict": "BENIGN", "confidence": 99, "timestamp": "2025-07-14T12:14:17.326992"}
+{"input": "unauthorized shell reverse tcp 4444", "verdict": "UNKNOWN", "confidence": 83, "timestamp": "2025-07-14T12:14:17.338504"}
+{"input": "cross site scripting payload <script>alert('hacked')</script>", "verdict": "BENIGN", "confidence": 100, "timestamp": "2025-07-14T12:14:37.971103"}
+{"input": "ransomware encryption start on drive c:", "verdict": "UNKNOWN", "confidence": 79, "timestamp": "2025-07-14T12:14:37.979112"}
+{"input": "privilege escalation using kernel exploit", "verdict": "UNKNOWN", "confidence": 75, "timestamp": "2025-07-14T12:14:37.979112"}
+{"input": "malware exe dropper behavior detected", "verdict": "BENIGN", "confidence": 99, "timestamp": "2025-07-14T12:24:38.343671"}
+{"input": "unauthorized shell reverse tcp 4444", "verdict": "UNKNOWN", "confidence": 83, "timestamp": "2025-07-14T12:24:38.343671"}
+{"input": "cross site scripting payload <script>alert('hacked')</script>", "verdict": "BENIGN", "confidence": 100, "timestamp": "2025-07-14T12:24:58.752567"}
+{"input": "ransomware encryption start on drive c:", "verdict": "UNKNOWN", "confidence": 79, "timestamp": "2025-07-14T12:24:58.756561"}
+{"input": "privilege escalation using kernel exploit", "verdict": "UNKNOWN", "confidence": 75, "timestamp": "2025-07-14T12:34:26.950853"}
+{"input": "autosnif", "verdict": "UNKNOWN", "confidence": 84, "timestamp": "2025-07-14T13:30:53.169079"}
+{"input": "dns", "verdict": "UNKNOWN", "confidence": 84, "timestamp": "2025-07-15T12:07:13.852553"}
+{"input": "dna satus", "verdict": "UNKNOWN", "confidence": 75, "timestamp": "2025-07-15T12:09:14.813368"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SUSPICIOUS", "confidence": 88, "timestamp": "2025-07-15T12:10:12.936122"}
+{"input": "sql union select admin for credentials", "verdict": "MALICIOUS", "confidence": 88, "timestamp": "2025-07-15T12:10:50.316557"}
+{"input": "drop table users; --", "verdict": "MALICIOUS", "confidence": 93, "timestamp": "2025-07-15T12:12:07.430674"}
+{"input": "exploit ftp anonymous login", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-15T12:12:53.197120"}
+{"input": "brute force ssh login user admin password 123456", "verdict": "SUSPICIOUS", "confidence": 77, "timestamp": "2025-07-15T12:14:09.863605"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SUSPICIOUS", "confidence": 88, "timestamp": "2025-07-15T13:24:12.596990"}
+{"input": "syn flood tcp overflow on 80", "verdict": "SUSPICIOUS", "confidence": 88, "timestamp": "2025-07-15T14:13:58.245988"}
+{"input": "sql union select admin from credentials", "verdict": "MALICIOUS", "confidence": 88, "timestamp": "2025-07-15T14:14:36.732786"}
+{"input": "drop table users; --", "verdict": "MALICIOUS", "confidence": 93, "timestamp": "2025-07-15T14:15:08.288530"}
+{"input": "dna status", "verdict": "UNKNOWN", "confidence": 82, "timestamp": "2025-07-15T14:17:42.691470"}
