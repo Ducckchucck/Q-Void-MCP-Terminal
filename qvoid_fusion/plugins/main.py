@@ -8,4 +8,3 @@ output = plugin.run({
 })
 print(output)
 plugin.cleanup()
-

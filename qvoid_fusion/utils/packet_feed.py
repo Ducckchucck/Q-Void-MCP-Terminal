@@ -1,12 +1,3 @@
-"""
-📡 QVoid Interceptor – Pulse Node Scanner (Quantum-Sync Ready)
-
-Captures and analyzes real-time network packets. Built as a modular 
-burst-sniffing engine with future support for QKD-style secure communication 
-burst sync and quantum pattern-based threat detection. Part of QVoid’s 
-post-quantum infrastructure stack. 🧠⚛️
-"""
-
 import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
@@ -18,6 +9,7 @@ import time
 
 LOG_PATH = "logs/.qvoidlog"
 
+
 def colored(text, color="green"):
     colors = {
         "green": "\033[92m",
@@ -28,6 +20,7 @@ def colored(text, color="green"):
         "reset": "\033[0m"
     }
     return f"{colors.get(color, '')}{text}{colors['reset']}"
+
 
 def log_packet(payload, verdict, confidence, plugins=None, src_ip="unknown"):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -44,10 +37,9 @@ def log_packet(payload, verdict, confidence, plugins=None, src_ip="unknown"):
     with open(LOG_PATH, "a", encoding="utf-8") as log:
         log.write(log_line + "\n")
 
-def handle_packet(pkt):
-    print(colored(f"\n📡 Interceptor: QVoid Pulse Node Active (Quantum-Sync Ready)", "blue"))
-    print(f"📦 Packet: {pkt.summary()}")
 
+def handle_packet(pkt):
+    print(f"\n📡 Packet: {pkt.summary()}")
     if Raw in pkt:
         try:
             payload = pkt[Raw].load.decode(errors="ignore").strip()
@@ -79,10 +71,12 @@ def handle_packet(pkt):
     else:
         print(colored("[!!] No data payload to analyze.", "cyan"))
 
+
 def start_sniff(count=10):
     print(colored("\n🚦 Starting live packet scan (batch of 10)...\n", "blue"))
     sniff(count=count, prn=handle_packet, store=0)
     print(colored("\n🛑 Sniffing complete. Type 'sniff' again for next 10 packets.\n", "cyan"))
+
 
 def auto_sniff_loop(batch_size=10, delay=10):
     while True:
@@ -90,6 +84,7 @@ def auto_sniff_loop(batch_size=10, delay=10):
         sniff(count=batch_size, prn=handle_packet, store=0)
         print(colored(f"🛑 Batch done. Waiting {delay}s before next...\n", "yellow"))
         time.sleep(delay)
+
 
 def start_auto_sniff_daemon(batch_size=10, delay=10):
     thread = threading.Thread(target=auto_sniff_loop, args=(batch_size, delay), daemon=True)
